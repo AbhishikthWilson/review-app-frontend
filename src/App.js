@@ -3,6 +3,7 @@ import './App.css';
 import AddReview from './components/AddReview';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ViewReview from './components/ViewReview';
+import SearchReview from './components/SearchReview';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
    <Routes>
     <Route path='/' element={<AddReview/>}/>
     <Route path='/view' element={<ViewReview/>}/>
+    <Route path='/search' element={<SearchReview/>}/>
    </Routes>
    </BrowserRouter>
   );
