@@ -24,8 +24,10 @@ const ViewReview = () => {
                         <div class="card">
             <img src="https://imgs.search.brave.com/y2-fulDZ_bDajuniMH32jYctvLHccHn3UQL2IVwfYUU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk1qQTVOREk1/T1Rnek5WNUJNbDVC/YW5CblhrRnRaVGd3/TmpnMk56TXlNVEVA/LmpwZw" class="card-img-top" alt="..."/>
             <div class="card-body">
-              <h5 class="card-title">Movie Name</h5>
-              <p class="card-text">Rating</p>
+            <h5 class="card-title">{value.name}</h5>
+                        <p class="card-text">{value.year}</p>
+                        <p class="card-text">{value.duration}</p>
+                        <p class="card-text">{value.rating}</p>
             </div>
           </div>
                         </div>
