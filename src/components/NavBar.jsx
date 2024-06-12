@@ -23,7 +23,7 @@ const NavBar = () => {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="#">
+                <Link class="nav-link active" aria-current="page" to="/">
                   Add
                 </Link>
               </li>
@@ -38,7 +38,7 @@ const NavBar = () => {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link ">
+                <Link class="nav-link " to="/view">
                   ViewAll
                 </Link>
               </li>
